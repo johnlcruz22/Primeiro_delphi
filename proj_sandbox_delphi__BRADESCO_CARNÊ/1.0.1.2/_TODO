@@ -1,0 +1,10 @@
+proj-sandbox-delphi__esqueleto_para_criacao_de_programas:
+
+1) Atualizar minha versão local do repositório "gitosis-admin" (Cid fez alterações nele). 
+   Tentei um "git pull" e deu erro, verificar alternativas. 
+
+2) Criar um repositório no gitosis para a documentação do cpd desenvolvimento 
+   (conteúdo de "P:\referencias\git\fingerprint" e 
+    "V:\vm_local\fontes_TRUNK\proj-sandbox-delphi__esqueleto_para_criacao_de_programas\documentacao"). 
+ 
+3) No projeto "esqueleto", pedir para o Cid remover os componentes JVCL e implementar os dele no lugar. 

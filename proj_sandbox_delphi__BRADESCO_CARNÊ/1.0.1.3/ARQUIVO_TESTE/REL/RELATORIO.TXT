@@ -1,0 +1,31 @@
+*****************************************************************
+                 RELATORIO DE QUANTIDADE - CARNES BRADESCO
+*****************************************************************
+*****************************************************************
+ 
+QUANTIDADE DE CARNES
+014 PARCELAS.....: 1 CARNE(S)
+011 PARCELAS.....: 2 CARNE(S)
+010 PARCELAS.....: 3 CARNE(S)
+009 PARCELAS.....: 6 CARNE(S)
+008 PARCELAS.....: 1 CARNE(S)
+006 PARCELAS.....: 1 CARNE(S)
+001 PARCELAS.....: 1 CARNE(S)
+ 
+ 
+TOTAL DE CARNES..: 00015
+ 
+*****************************************************************
+QUANTIDADE DE LAMINAS POR PARCELAS
+*****************************************************************
+ 
+014 PARCELAS.....: 14 LAMINA(S)
+011 PARCELAS.....: 22 LAMINA(S)
+010 PARCELAS.....: 30 LAMINA(S)
+009 PARCELAS.....: 54 LAMINA(S)
+008 PARCELAS.....: 8 LAMINA(S)
+006 PARCELAS.....: 6 LAMINA(S)
+001 PARCELAS.....: 1 LAMINA(S)
+ 
+ 
+TOTAL DE LAMINAS.: 00135

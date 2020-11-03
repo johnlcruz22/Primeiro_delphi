@@ -1,0 +1,155 @@
+---
+
+COMMIT: 31
+Versão Programa: 1.0.17
+Versão Biblioteca FUNCOES Fingerprint: 1.0.5
+Versão Biblioteca CLASSES Fingerprint: 1.0.6
+Data: 17/06/2011
+Alterações:
+  1- Melhorias na uConfiguration : Implementado a duncionalidade de pegar o nome da aplicação
+     automaticamente, não está mais estática como antes.
+
+---
+
+COMMIT: 30
+Versão Programa: 1.0.16
+Versão Biblioteca FUNCOES Fingerprint: 1.0.5
+Versão Biblioteca CLASSES Fingerprint: 1.0.6
+Data: 15/06/2011
+Alterações:
+  1- Padronizadas as chamadas à função "AppLog". 
+
+---
+
+COMMIT: 29
+Versão Programa: 1.0.13
+Versão Biblioteca FUNCOES Fingerprint: 1.0.5
+Versão Biblioteca CLASSES Fingerprint: 1.0.6
+Data: 15/06/2011
+Alterações:
+  1- Correção de mais um bug na função "AppLog".
+
+---
+
+COMMIT: 28
+Versão Programa: 1.0.12
+Versão Biblioteca FUNCOES Fingerprint: 1.0.5
+Versão Biblioteca CLASSES Fingerprint: 1.0.6
+Data: 15/06/2011
+Alterações:
+  1- Correção de bug na função "AppLog".
+	 
+---
+
+COMMIT: 27
+Versão Programa: 1.0.11
+Versão Biblioteca FUNCOES Fingerprint: 1.0.1
+Versão Biblioteca CLASSES Fingerprint: 1.0.5
+Data: 06/06/2011
+Alterações:
+  1- Alteração geral no programa para passar a considerar as funções de tratamento de arquivos da biblioteca de 
+     CLASSES fingerprint.
+
+---
+
+COMMIT: 26
+Versão Programa: 1.0.5
+Versão Biblioteca Fingerprint: 1.0
+Data: 06/06/2011
+Alterações:
+  1- Adicionado "Id do processamento" no formulário.
+
+---
+
+COMMIT: 25
+Versão Programa: 1.0.4
+Versão Biblioteca Fingerprint: 1.0
+Data: 03/06/2011
+Alterações:
+  1- Forçada alteração apenas para demonstrar o layout definitivo deste arquivo _HISTORY.
+
+---
+
+Commit Bundle 24 - Versão 1.0.3 (02062011 - 20:10)
+  - Implementação do log em base de dados.
+
+Commit Bundle 23 - Versão 1.0.2 (02062011 - 10:05)
+  - Correção de erros de digitação.
+
+Commit Bundle 22 - Versão 1.0.1 (26052011 - 11:10)
+  - Alterações na classe uConfiguration (Adicionado suporte a um arquivo de configuração default para a aplicação).
+
+Commit Bundle 21 - Versão 1.0 (25052011 - 15:20)
+  - Correção de bug: índice do array de conexões estava errado.
+
+Commit Bundle 20 - Versão 1.0 (25052011 - 11:05)
+  - Alterado número da versão;
+  - Alterações cosméticas no formulário.
+
+Commit Bundle 19 - Versão 0.99.0 (23052011 - 13:55)
+ - Adaptação na função Executar(): Esta recebe o tippo de dados que já está definido nos parâmetros de entrada na unit ucore.pas.
+ - Adaptação na função ValidarParametrosInformados(): Esta recebe o tippo de dados que já está definido nos parâmetros de entrada na unit ucore.pas.
+ - Adaptação na classe TCore: Criado um método construtor que recebe os parâmetros de entrada já validados + o objeto de configuracao.
+
+
+Commit Bundle 18 - Versão 0.99.0 (23052011 - 11:30)
+ - Adaptação para as funções de que fazem a ligação da uMain.pas com a ucore.pas (Como no exemplo a Executar()) 
+   para obter o retorno do record RParametrosDeRetornoParaForm fazendo assim a ligação do 
+   métoso "Result := oCore.GetParametrosDeRetornoParaForm" como resposta no form 
+   "rrParametrosRetorno:= Executar(edtPathEntrada.Text, edtPathSaida.Text, ListaDeArquivosSelecionados)";
+
+Commit Bundle 17 - Versão 0.99.0 (23052011 - 10:52)
+ - Adicionado o record RParametrosDeRetornoParaForm para retorno de informacoes ao form em ucore.pas.
+
+Commit Bundle 16 - Versão 0.99.0 (23052011 - 09:00)
+ - Adicionado a aba de conexoes contendo as conexoes listadas no arquivo databases.conf.
+ - Retirado o conponente jvc, e substituido por um bitbutton+edit, mantendo o mesmo conportamento, para usar componentes nativos do Delphi.
+ - Adicioando ao ucore.pas a o record contendo os parâmetros de entrada.
+ - O Sobre foi adaptado para função, sendo apenas necessário a passagem do nome do autor.
+ - Adicioando a pasta icones, para os icones usados no projeto.
+
+Commit Bundle 15 - Versão 0.99.0 (18052011 - 17:10)
+  - Merge das minhas alterações locais com o TRUNK. 
+
+Commit Bundle 14 - Versão 0.99.0 (18052011 - 17:00)
+  - Deletado o arquvo .log da pasta do projeto devido ao commit 11.
+
+Commit Bundle 13 - Versão 0.99.0 (18052011 - 16:15)
+  - Merge das minhas alterações locais com o TRUNK. 
+ 
+Commit Bundle 12 - Versão 0.99.0 (18052011 - 15:05)
+  - Alterado arquivo TODO. 
+
+Commit Bundle 11 - Versão 0.99.0 (18052011 - 15:00)
+  - Adicionado no .gitignore exensões *.log para ignorar estes arquivos.
+
+Commit Bundle 10 - Versão 0.99.0 (17052011 - 16:25)
+  - Versão inicial do programa para desenvolvedores. 
+
+Commit Bundle 9 - Versão 0.9.17 (17052011 - 14:35)
+  - Continuação das alterações para publicar o programa para os demais desenvolvedores. 
+
+Commit Bundle 8 - Versão 0.9.16 (17052011 - 13:00)
+  - Continuação das alterações para publicar o programa (nova biblioteca de funções FINGERPRINT).
+
+Commit Bundle 7 - Versão 0.9.15 (17052011 - 11:30)
+  - Continuação das alterações para publicar o programa.
+
+Commit Bundle 6 - Versão 0.9.14 (16052011 - 12:30)
+  - Início das alterações para publicar o programa para os demais desenvolvedores. 
+
+Commit Bundle 5 - Versão 0.9.12 (16052011 - 11:45)
+  - Compilação para adaptar o programa à nova versão da função "logar".
+
+Commit Bundle 4 - Versão 0.9.11 (27032011 - 15:15)
+  - Removidas a referência à unit ucoreDB (local do projeto), e trocada por uma referência à unit "uFuncoes_DB".
+
+Commit Bundle 3 - Versão 0.9.9 (24032011 - 11:35)
+  - Nas configurações do banco, adicionado suporte à nova DB "app_logs_db".
+
+Commit Bundle 2 - Versão 0.9.8 (24032011 - 11:35)
+  - Correção de bug do commit anterior (não estava atualizando os tamanhos ao marcar/desmarcar arquivos na lista).
+  
+Commit Bundle 1 - Versão 0.9.8 (24032011 - 11:25)
+  - Alterações no esqueleto para suportar o novo padrão de interfaces para os programas do CPD Desenvolvimento.
+>>>>>>> origin/master
